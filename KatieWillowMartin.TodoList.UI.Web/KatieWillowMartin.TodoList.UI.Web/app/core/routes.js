@@ -6,7 +6,7 @@
     core.config(
         function($routeProvider, $locationProvider) {
             $routeProvider.
-                when('/home/index/tasks', {
+                when('/tasks/list', {
                     templateUrl: '/app/tasks/task-list.html',
                     controller: 'tasks'
                 }).

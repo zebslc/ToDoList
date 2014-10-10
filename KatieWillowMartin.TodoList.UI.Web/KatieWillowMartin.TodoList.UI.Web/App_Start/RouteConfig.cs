@@ -14,6 +14,11 @@ namespace KatieWillowMartin.TodoList.UI.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "tasks",
+                url: "tasks/{*params}",
+                defaults: new { controller = "Home", action = "Index" }
+                );
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
