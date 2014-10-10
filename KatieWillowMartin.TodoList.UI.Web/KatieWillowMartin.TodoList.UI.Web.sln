@@ -5,6 +5,17 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatieWillowMartin.TodoList.UI.Web", "KatieWillowMartin.TodoList.UI.Web\KatieWillowMartin.TodoList.UI.Web.csproj", "{83D57240-02CC-424A-AC5C-3284FE7E8AC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{66E6126D-71FD-4DA0-8F89-6D49E6D0CCE1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{9755F23E-7101-4B40-8FE6-3A288568E3C1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\KatieWillowMartinTodoListUIWeb-WAWS-dev.json = PublishScripts\Configurations\KatieWillowMartinTodoListUIWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9755F23E-7101-4B40-8FE6-3A288568E3C1} = {66E6126D-71FD-4DA0-8F89-6D49E6D0CCE1}
 	EndGlobalSection
 EndGlobal
