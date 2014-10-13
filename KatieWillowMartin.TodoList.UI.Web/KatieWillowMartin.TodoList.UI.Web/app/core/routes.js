@@ -1,9 +1,13 @@
-﻿(function() {
+﻿define(
+    [
+        'app.core',
+        'angular'
+    ],
+
+    function (module) {
     'use strict';
 
-    var core = angular.module('app.core');
-
-    core.config(
+    return module.config(['$routeProvider','$locationProvider',
         function($routeProvider, $locationProvider) {
             $routeProvider.
                 when('/tasks/list', {
@@ -14,5 +18,5 @@
                     redirectTo: '/'
                 });
             $locationProvider.html5Mode(true);
-        });
-})();
+        }]);
+});

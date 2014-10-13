@@ -1,4 +1,9 @@
-﻿angular.module('app.core',
-[
-    'ngRoute'
-]);
+﻿define(
+    'app.core',
+    [
+        'angular'
+    ]
+    ,
+    function (angular) {
+    return angular.module('app.core',[]);
+ });

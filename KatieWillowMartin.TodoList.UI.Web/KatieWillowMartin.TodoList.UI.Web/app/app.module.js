@@ -1,11 +1,18 @@
-﻿angular.module('app',
+﻿define('app',
+    [
+        'angular',
+        'angular-route',
+         './core/core.module',
+        './tasks/tasks.module',
+        './core/register',
+        './tasks/register'
+    ],
+    function (angular) {
+    'use strict';
+       return angular.module('app',
         [
-           
-            //Framework modules
+            'ngRoute',
             'app.core',
-
-            //feature modules
-            'app.tasks',
-
-            'ngRoute'
+            'app.tasks'
         ]);
+    });

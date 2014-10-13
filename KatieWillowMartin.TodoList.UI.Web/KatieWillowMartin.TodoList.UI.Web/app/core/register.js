@@ -1,0 +1,4 @@
+﻿define([
+    './config',
+    './routes'
+], function () { });

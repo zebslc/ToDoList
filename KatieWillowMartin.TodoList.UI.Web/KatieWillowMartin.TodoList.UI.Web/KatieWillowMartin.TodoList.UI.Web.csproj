@@ -137,9 +137,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.module.js" />
+    <Content Include="app\bootstrap.js" />
     <Content Include="app\core\config.js" />
     <Content Include="app\core\core.module.js" />
+    <Content Include="app\core\register.js" />
     <Content Include="app\core\routes.js" />
+    <Content Include="app\main.js" />
+    <Content Include="app\tasks\register.js" />
     <Content Include="app\tasks\task-list.html" />
     <Content Include="app\tasks\tasks.js" />
     <Content Include="app\tasks\tasks.module.js" />

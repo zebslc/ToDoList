@@ -1,7 +1,10 @@
-﻿(function() {
+﻿define(
+    [
+     'angular',
+     'app.core'
+    ],
+    function (angular, core) {
     'use strict';
-
-    var core = angular.module('app.core');
 
     var config = {
         appErrorPrefix: '[NG-Modular Error] ',
@@ -9,5 +12,5 @@
         version: '1.0.0'
     };
 
-    core.value('config', config);
-})();
+   return core.value('config', config);
+})
