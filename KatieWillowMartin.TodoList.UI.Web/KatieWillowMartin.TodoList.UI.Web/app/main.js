@@ -1,6 +1,5 @@
 ﻿require.config({
 
-    // alias libraries paths
     paths: {
         'domReady': '../Scripts/domReady',
         'angular': '../Scripts/angular',
@@ -8,7 +7,6 @@
         'app': '../app/app.module'
     },
 
-    // angular does not support AMD out of the box, put it in a shim
     shim: {
         'angular':
             {
@@ -21,7 +19,6 @@
             }
         },
     
-    // kick start application
     deps:
         [
         './bootstrap'
