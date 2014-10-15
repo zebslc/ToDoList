@@ -1,1 +1,16 @@
-﻿hello world
+﻿<div ng-init="tasks = [
+  {name:'task1', complete:'true'},
+  {name:'task1', complete:'false'},
+  {name:'task1', complete:'true'},
+  {name:'task1', complete:'false'},
+  {name:'task1', complete:'true'},
+  {name:'task1', complete:'true'},
+  {name:'task1', complete:'false'},
+  {name:'task1', complete:'true'},
+  {name:'task1', complete:'true'},
+]"></div>
+
+    <div class="row" ng-repeat="task in tasks">
+        <span>{{task.name}} </span>
+        <span><input id="checkSlave" type="checkbox" ng-checked="{{task.complete}}"></span>
+    </div>
