@@ -5,5 +5,6 @@
     ]
     ,
     function (angular) {
-    return angular.module('app.tasks', []);
-});
+        'use strict';
+        return angular.module('app.tasks', []);
+    });

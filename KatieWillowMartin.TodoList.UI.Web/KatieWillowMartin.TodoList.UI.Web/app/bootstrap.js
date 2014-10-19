@@ -9,4 +9,4 @@
         require(['domReady!'], function (document) {
             angular.bootstrap(document, ['app']);
         });
-});
+    });

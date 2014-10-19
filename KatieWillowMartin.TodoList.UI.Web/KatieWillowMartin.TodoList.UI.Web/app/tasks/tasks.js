@@ -1,20 +1,20 @@
 ﻿define(
     [
-      'app.tasks'
-    , 'angular'
+        'app.tasks',
+        'angular'
     ],
 
     function (module) {
-    'use strict';
+        'use strict';
 
-    module.controller('tasks', tasks);
+        module.controller('tasks', tasks);
 
-    function tasks($location, $scope, tasksService) {
+        function tasks($scope, tasksService) {
 
-        $scope.tasks=tasksService.tasks;
+            $scope.tasks = tasksService.tasks;
 
-        $scope.delete = function(idx) {
-            tasksService.tasks.splice(idx, 1);
+            $scope.delete = function (idx) {
+                tasksService.tasks.splice(idx, 1);
+            };
         }
-    }
-});
+    });

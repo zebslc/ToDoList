@@ -1,4 +1,7 @@
 ﻿define([
     './tasks',
     './tasksService'
-], function () { });
+], function () {
+    'use strict';
+    return this;
+});

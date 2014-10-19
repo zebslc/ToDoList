@@ -8,19 +8,16 @@
     },
 
     shim: {
-        'angular':
-            {
-                'exports': 'angular'
-            },
-        'angular-route':
-            {
-                'deps': ['angular'],
-                'exports': 'angular-route'
-            }
+        'angular': {
+            'exports': 'angular'
         },
-    
-    deps:
-        [
+        'angular-route': {
+            'deps': ['angular'],
+            'exports': 'angular-route'
+        }
+    },
+
+    deps: [
         './bootstrap'
-        ]
+    ]
 });

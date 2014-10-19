@@ -5,5 +5,5 @@
     ]
     ,
     function (angular) {
-    return angular.module('app.core',[]);
- });
+        return angular.module('app.core', []);
+    });
