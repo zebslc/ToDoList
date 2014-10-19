@@ -1,3 +1,4 @@
 ﻿define([
-    './tasks'
+    './tasks',
+    './tasksService'
 ], function () { });

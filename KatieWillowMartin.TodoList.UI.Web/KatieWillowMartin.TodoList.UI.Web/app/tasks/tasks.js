@@ -9,16 +9,9 @@
 
     module.controller('tasks', tasks);
 
-    function tasks($location, $scope) {
+    function tasks($location, $scope, tasksService) {
 
-        $scope.tasks = [
-            { name: 'task1', complete: 'true' },
-            { name: 'task1', complete: 'false' },
-            { name: 'task1', complete: 'true' },
-            { name: 'task1', complete: 'false' },
-            { name: 'task1', complete: 'true' },
-            { name: 'task1', complete: 'true' }
-        ];
+        $scope.tasks=tasksService.tasks;
 
         $scope.delete = function(idx) {
             $scope.tasks.splice(idx, 1);
