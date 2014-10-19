@@ -77,6 +77,7 @@ textarea {
     vertical-align:central;
 }
 
+
 .task-content #input {
     background-color: #E0E0E0;
     color: #000000;
@@ -89,6 +90,12 @@ textarea {
     height: 15px;
     vertical-align: bottom;
 }
+
+.task-content .complete
+{
+    text-decoration: line-through;
+}
+
 .task-content .btn-task-remove {
     border:1px solid #B6B6B6;
     -moz-border-radius:4px;
