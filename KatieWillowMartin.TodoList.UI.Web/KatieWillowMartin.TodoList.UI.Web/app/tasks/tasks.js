@@ -14,7 +14,7 @@
         $scope.tasks=tasksService.tasks;
 
         $scope.delete = function(idx) {
-            $scope.tasks.splice(idx, 1);
+            tasksService.tasks.splice(idx, 1);
         }
     }
 });
