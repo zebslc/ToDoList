@@ -95,6 +95,10 @@ textarea {
 {
     text-decoration: line-through;
 }
+.task-content .open
+{
+    text-decoration: none;
+}
 
 .task-content .btn-task-remove {
     border:1px solid #B6B6B6;

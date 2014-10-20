@@ -3,9 +3,9 @@
         <div class="task">
             <div class="task-content">
                 <span>
-                    <input id="taskComplete" type="checkbox" ng-checked="{{task.complete}}">
+                    <input type="checkbox" ng-model="task.complete" checked="tasks[{{$index}}].complete">
                 </span>
-                <span ng-class="({{task.complete}}) ? 'complete' : ''">{{task.name}}</span>
+                <span ng-class="task.complete ? 'complete' : 'open'" ng-click="complete($index)">{{task.name}} {{task.complete}}</span>
                 <button class="btn-default btn-task-remove" ng-click="delete($index)">Remove</button>
             </div>
         </div>
