@@ -12,7 +12,20 @@
         function tasks($scope, tasksService) {
 
             $scope.tasks = tasksService.tasks;
-            
+
+            function resetTaskInput() {
+                $scope.name="";
+            }
+
+            $scope.add=function(){
+                tasksService.tasks.splice(0,0,{
+                    name: $scope.name,
+                    complete: false
+                });
+
+                resetTaskInput();
+
+            };
 
             $scope.delete = function (idx) {
                 tasksService.tasks.splice(idx, 1);

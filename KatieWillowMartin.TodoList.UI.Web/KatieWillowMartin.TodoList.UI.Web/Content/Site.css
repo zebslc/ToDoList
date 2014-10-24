@@ -15,7 +15,7 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+
 }
 .center {
      float: none;
@@ -32,15 +32,41 @@ textarea {
     vertical-align: central;
 }
 
-.task-layout {
-    background-color: #CCC;
+.task-add{
+    width:601px;
+}
+
+.task-layout{
+  background-color: #CCCCCC;
+  width:625px;
+  height:378px;
+  align-content: center;
+}
+
+.tasks-title{
+    font-size: 20px;
+    color:#000000;
+    font-weight: 500;
+}
+
+
+.task-list-row{
+    margin-top:5px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #eaeaea;
     padding-right: 17px;
     padding-left: 17px;
     overflow: auto;
     height:288px;
     width:600px;
     border: solid 1px #FFF;
+    border:1px solid #B6B6B6;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
 }
+
 
 .task-layout hr{
   clear: both; 
@@ -59,8 +85,7 @@ textarea {
       color-stop(0.5, rgb(255,255,255))
   );
   background-image: -moz-linear-gradient(
-      center top,
-      rgb(221,221,221) 50%,
+      center top,rgb(221,221,221) 50%,
       rgb(255,255,255) 50%
   );
 }
@@ -74,7 +99,8 @@ textarea {
     color: #000000;
     text-align: left;
     padding-left: 10px;
-    vertical-align:central;
+    vertical-align:middle;
+    word-wrap: break-word;
 }
 
 
@@ -108,7 +134,7 @@ textarea {
      float: right;
      margin-right: 10px;
      height: 24px;
-     background-color: #E6E6E6;
+     background-color: #CCCCCC;
      background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6), to(#CCCCCC));
      background-image: -webkit-linear-gradient(top, #E6E6E6, #CCCCCC);
      background-image: -moz-linear-gradient(top, #E6E6E6, #CCCCCC);
@@ -125,4 +151,53 @@ textarea {
      background-image: -ms-linear-gradient(top, #cdcdcd, #b3b3b3);
      background-image: -o-linear-gradient(top, #cdcdcd, #b3b3b3);
      background-image: linear-gradient(to bottom, #cdcdcd, #b3b3b3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cdcdcd, endColorstr=#b3b3b3);
+}
+
+
+.add-task-row{
+    width:100%;
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.add-task-row textarea
+{
+    background-color:#eaeaea;
+    border:1px solid #B6B6B6;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    width:439px;
+    resize: none;
+    height:50px;
+    word-wrap: break-word;
+}
+
+.task-add .btn-task-add {
+    border:1px solid #B6B6B6;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    margin-left:2px;
+    float: right;
+    width:150px;
+    height:50px;
+    background-color: #FF9933;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6), to(#CCCCCC));
+    background-image: -webkit-linear-gradient(top, #FFB165, #FE7E00);
+    background-image: -moz-linear-gradient(top, #FFB165, #FE7E00);
+    background-image: -ms-linear-gradient(top, #FFB165, #FE7E00);
+    background-image: -o-linear-gradient(top, #FFB165, #FE7E00);
+    background-image: linear-gradient(to bottom, #FFB165, #FE7E00);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E6E6E6, endColorstr=#CCCCCC);
+}
+.task-add .btn-task-add:hover{
+    border:1px solid #B3B3B3;
+    background-color: #CDCDCD; background-image: -webkit-gradient(linear, left top, left bottom, from(#cdcdcd), to(#b3b3b3));
+    background-image: -webkit-linear-gradient(top, #FE7E00, #984B00);
+    background-image: -moz-linear-gradient(top, #FE7E00, #984B00);
+    background-image: -ms-linear-gradient(top, #FE7E00, #984B00);
+    background-image: -o-linear-gradient(top, #FE7E00, #984B00);
+    background-image: linear-gradient(to bottom, #FE7E00, #984B00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cdcdcd, endColorstr=#b3b3b3);
 }

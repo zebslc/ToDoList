@@ -1,14 +1,32 @@
-<div class="task-layout">
-    <div class="row task-row" ng-repeat="task in tasks">
-        <div class="task">
-            <div class="task-content">
-                <span>
-                    <input type="checkbox" ng-model="task.complete" checked="tasks[{{$index}}].complete">
-                </span>
-                <span ng-class="task.complete ? 'complete' : 'open'" ng-click="complete($index)">{{task.name}} {{task.complete}}</span>
-                <button class="btn-default btn-task-remove" ng-click="delete($index)">Remove</button>
-            </div>
+<div class="task-layout container">
+    <!--Title-->
+    <div class="tasks-title">To Do List</div>
+
+
+    <!--Add-->
+    <div class="task-add">
+       <div class="row add-task-row">
+
+            <textarea id="newTask" ng-model="name"> </textarea>
+
+            <button class="btn-default btn-task-add" ng-click="add()">Add Task</button>
+
         </div>
-        <hr/>
+    </div>
+    <!--List-->
+    <div class="row task-list-row">
+        <div class="row task-row" ng-repeat="task in tasks">
+            <div class="task">
+                <div class="task-content">
+                <span>
+                    <input type="checkbox" ng-model="task.complete" checked="tasks[{{$index}}].complete"
+                           id="task{{$index}}">
+                </span>
+                    <span ng-class="task.complete ? 'complete' : 'open'" ng-click="complete($index)">{{task.name}} {{task.complete}}</span>
+                    <button class="btn-default btn-task-remove" ng-click="delete($index)">Remove</button>
+                </div>
+            </div>
+            <hr/>
+        </div>
     </div>
 </div>

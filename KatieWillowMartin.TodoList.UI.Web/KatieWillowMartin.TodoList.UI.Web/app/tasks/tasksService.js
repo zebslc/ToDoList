@@ -15,7 +15,6 @@
                     { name: 'task1', complete: true },
                     { name: 'task1', complete: true }
                 ];
-
             }
         );
     });
