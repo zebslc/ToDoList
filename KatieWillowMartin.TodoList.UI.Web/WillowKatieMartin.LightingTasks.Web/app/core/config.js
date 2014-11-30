@@ -8,7 +8,7 @@
 
         var config = {
             appErrorPrefix: '[NG-Modular Error] ',
-            appTitle: 'Task',
+            appTitle: 'CustomTask',
             version: '1.0.0'
         };
 

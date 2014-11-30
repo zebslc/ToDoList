@@ -1,0 +1,15 @@
+﻿{
+  "output": "Message",
+  "ignore": [],
+  "options": {
+    "predef": {},
+    "browser": true,
+    "couch": true,
+    "devel": true,
+    "node": true,
+    "passfail": true,
+    "rhino": true
+  },
+  "runOnSave": false,
+  "runOnBuild": false
+}

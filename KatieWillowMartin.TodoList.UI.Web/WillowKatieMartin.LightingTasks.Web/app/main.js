@@ -3,17 +3,19 @@
     paths: {
         'domReady': '../Scripts/domReady',
         'angular': '../Scripts/angular',
-        'angular-route': '../Scripts/angular-route',
-        'app': '../app/app.module'
+        'app': '../app/app.module',
+        'uiRouter': '../Scripts/angular-ui-router'
     },
 
     shim: {
         'angular': {
             'exports': 'angular'
         },
-        'angular-route': {
+       
+       
+        'uiRouter': {
             'deps': ['angular'],
-            'exports': 'angular-route'
+            'exports': 'uiRouter'
         }
     },
 

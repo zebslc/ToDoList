@@ -1,9 +1,10 @@
 ﻿define(
     'app.core',
     [
-        'angular'
+        'angular',
+        'uiRouter'
     ]
     ,
     function (angular) {
-        return angular.module('app.core', []);
+        return angular.module('app.core', ['ui.router']);
     });

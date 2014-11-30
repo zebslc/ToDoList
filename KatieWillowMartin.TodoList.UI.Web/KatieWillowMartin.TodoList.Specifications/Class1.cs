@@ -3,18 +3,18 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Hosting;
 using FluentAssertions;
-using KatieWillowMartin.TodoList.UI.Web.Controllers;
 using KatieWillowMartin.TodoList.UI.Web.Repositories;
 using Newtonsoft.Json;
 using NSubstitute;
 using NUnit.Framework;
+using WillowKatieMartin.LightingTasks.Web.Controllers;
+using WillowKatieMartin.LightingTasks.Web.Models;
 
 namespace KatieWillowMartin.TodoList.Specifications
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
 
-    using Task = KatieWillowMartin.TodoList.UI.Web.Models.Task;
 
     [TestFixture]
     public class TasksControllerSpecifications
@@ -54,7 +54,7 @@ namespace KatieWillowMartin.TodoList.Specifications
             public void Do_return_list_of_tasks()
             {
                 // Arrange 
-                var tasks = new List<Task> { new Task(), new Task(), new Task() };
+                var tasks = new List<CustomTask> { new CustomTask(), new CustomTask(), new CustomTask() };
                 var expectedContent = JsonConvert.SerializeObject(tasks);
 
                 var repository = Substitute.For<ITasksRepository>();
@@ -74,7 +74,7 @@ namespace KatieWillowMartin.TodoList.Specifications
             public void Do_return_a_task_with_name()
             {
                 // Arrange 
-                var tasks = new List<Task> { new Task(), new Task(), new Task() };
+                var tasks = new List<CustomTask> { new CustomTask(), new CustomTask(), new CustomTask() };
                 var expectedContent = JsonConvert.SerializeObject(tasks);
 
                 var repository = Substitute.For<ITasksRepository>();
@@ -93,7 +93,7 @@ namespace KatieWillowMartin.TodoList.Specifications
             private TasksController BuildController(ITasksRepository repository)
             {
                 var config = new HttpConfiguration();
-                var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost/api/Task");
+                var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost/api/CustomTask");
                 var controller = new TasksController(repository)
                 {
                     Request = request,

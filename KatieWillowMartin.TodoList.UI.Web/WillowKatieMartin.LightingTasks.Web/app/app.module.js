@@ -1,18 +1,18 @@
 ﻿define('app',
     [
         'angular',
-        'angular-route',
+        'uiRouter',
         './core/core.module',
         './tasks/tasks.module',
         './core/register',
         './tasks/register'
     ],
-    function (angular) {
+    function (angular,router) {
         'use strict';
         return angular.module('app',
             [
-                'ngRoute',
                 'app.core',
-                'app.tasks'
+                'app.tasks',
+                'ui.router'
             ]);
     });

@@ -72,9 +72,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KatieWillowMartin.TodoList.UI.Web\KatieWillowMartin.TodoList.UI.Web.csproj">
-      <Project>{83D57240-02CC-424A-AC5C-3284FE7E8AC1}</Project>
-      <Name>KatieWillowMartin.TodoList.UI.Web</Name>
+    <ProjectReference Include="..\WillowKatieMartin.LightingTasks.Web\WillowKatieMartin.LightingTasks.Web.csproj">
+      <Project>{AA45361D-3A61-4B99-B4A2-E60BCE94E755}</Project>
+      <Name>WillowKatieMartin.LightingTasks.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

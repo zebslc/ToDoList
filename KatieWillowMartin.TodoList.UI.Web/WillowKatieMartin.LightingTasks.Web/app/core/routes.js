@@ -1,22 +1,28 @@
 ﻿define(
     [
         'app.core',
-        'angular'
+        'angular',
+        'uiRouter'
     ],
 
     function (module) {
         'use strict';
 
-        return module.config(['$routeProvider', '$locationProvider',
-            function ($routeProvider, $locationProvider) {
-                $routeProvider.
-                    when('/tasks/list', {
-                        templateUrl: '/app/tasks/task-list.html',
-                        controller: 'tasks'
-                    }).
-                    otherwise({
-                        redirectTo: '/'
-                    });
-                $locationProvider.html5Mode(true);
+        return module.config([
+            '$stateProvider',
+            function ($stateProvider) {
+
+                $stateProvider.state('list', {
+                    url: '/list',
+                    templateUrl: '/app/tasks/task-list.html',
+                    controller: 'tasks'
+                })
+
+                .state('home', {
+                    url: '/home',
+                    templateUrl:'/app/home/home.html'
+                    })
+                ;
+
             }]);
     });
