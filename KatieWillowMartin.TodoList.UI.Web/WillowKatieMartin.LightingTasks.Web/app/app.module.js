@@ -5,9 +5,10 @@
         './core/core.module',
         './tasks/tasks.module',
         './core/register',
-        './tasks/register'
+        './tasks/register',
+        './home/register'
     ],
-    function (angular,router) {
+    function (angular) {
         'use strict';
         return angular.module('app',
             [

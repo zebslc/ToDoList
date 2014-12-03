@@ -190,9 +190,11 @@
     <Content Include="app\bootstrap.js" />
     <Content Include="app\core\config.js" />
     <Content Include="app\core\core.module.js" />
+    <Content Include="app\core\layout.html" />
     <Content Include="app\core\register.js" />
     <Content Include="app\core\routes.js" />
     <Content Include="app\home\home.html" />
+    <Content Include="app\home\register.js" />
     <Content Include="app\main.js" />
     <Content Include="app\tasks\register.js" />
     <Content Include="app\tasks\task-list.html" />
@@ -1040,6 +1042,8 @@
           <DevelopmentServerPort>59624</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:59624/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:59624/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -20,8 +20,15 @@
 
                 .state('home', {
                     url: '/home',
-                    templateUrl:'/app/home/home.html'
-                    })
+                    views:{
+                        '':{templateUrl:'/app/core/layout.html'},
+                        'tasks@home':{
+                            templateUrl:'/app/tasks/task-list.html',
+                            controller: 'tasks'
+                        }
+                    }
+
+                       })
                 ;
 
             }]);
