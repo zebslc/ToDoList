@@ -22,7 +22,7 @@
                     <input type="checkbox" ng-model="task.complete" checked="tasks[{{$index}}].complete"
                            id="task{{$index}}">
                 </span>
-                    <span ng-class="task.complete ? 'complete' : 'open'" ng-click="complete($index)">{{task.name}} {{task.complete}}</span>
+                    <span ng-class="task.complete ? 'complete' : 'open'" ng-click="complete($index)">{{task.name}}</span>
                     <button class="btn-default btn-task-remove" ng-click="delete($index)">Remove</button>
                 </div>
             </div>

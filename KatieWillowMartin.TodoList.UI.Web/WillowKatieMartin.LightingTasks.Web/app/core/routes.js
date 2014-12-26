@@ -14,20 +14,18 @@
 
                 $stateProvider
                    .state('home', {
-                    url: '/home',
-                    views:{
-                        '':{templateUrl:'/app/core/layout.html'},
-                        'tasks@home':{
-                            templateUrl:'/app/tasks/task-list.html',
-                            controller: 'tasks'
-                        },
-                        'addons@home':{
-                            template:'Add Ons'
-                        }
-                    }
+                       url: '/home',
+                       views: {
+                           '': { templateUrl: '/app/core/layout.html' },
+                           'tasks@home': {
+                               templateUrl: '/app/tasks/task-list.html',
+                               controller: 'tasks'
+                           },
+                           'addons@home': {
+                               template: 'Add Ons'
+                           }
+                       }
 
-                       })
-                ;
-
+                   });
             }]);
     });
