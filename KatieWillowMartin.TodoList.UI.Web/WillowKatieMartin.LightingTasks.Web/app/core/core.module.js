@@ -2,9 +2,10 @@
     'app.core',
     [
         'angular',
-        'uiRouter'
+        'uiRouter',
+        'ngResource'
     ]
     ,
     function (angular) {
-        return angular.module('app.core', ['ui.router']);
+        return angular.module('app.core', ['ui.router','ngResource']);
     });

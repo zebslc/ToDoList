@@ -1,7 +1,8 @@
 ﻿define(
     [
         'angular',
-        'app.core'
+        'app.core',
+        'ngResource'
     ],
     function (angular, core) {
         'use strict';
@@ -11,6 +12,10 @@
             appTitle: 'CustomTask',
             version: '1.0.0'
         };
+
+        core.config(function($resourceProvider) {
+            $resourceProvider.defaults.stripTrailingSlashes = false;
+        });
 
         return core.value('config', config);
     })

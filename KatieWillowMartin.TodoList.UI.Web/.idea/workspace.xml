@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79f62bf6-f318-45cf-a72a-cd34956cc02e" name="Default" comment="adding mixed change set">
-      <change type="DELETED" beforePath="C:\Code\KatieWillowMartin.TodoList.UI.Web\WillowKatieMartin.LightingTasks.Web\Views\Home\Contact.cshtml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Shared/_Layout.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/routes.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/task-list.html" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/task-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="79f62bf6-f318-45cf-a72a-cd34956cc02e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-mocks.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-mocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-resource.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-resource.min.js.map" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-resource.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-resource.min.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular-resource.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular.min.js.map" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular.min.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Scripts/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/app.module.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/app.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/bootstrap.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/config.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/core.module.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/core.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/main.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/packages.config" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/packages.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasks.module.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasks.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasksService.js" afterPath="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasksService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KatieWillowMartin.TodoList.UI.Web.iws" />
@@ -31,21 +41,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/home/register.js">
+      <file leaf-file-name="tasksService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasksService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.091803275" vertical-offset="0" max-vertical-offset="915">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/home/home.html">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/app.module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -54,48 +94,48 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="777">
+            <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="1036">
               <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Site.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Content/Site.css">
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="5880">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Shared/_Layout.cshtml">
+      <file leaf-file-name="core.module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/core.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1372">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Home/Index.cshtml">
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="231">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/task-list.html">
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08108108" vertical-offset="199" max-vertical-offset="1064">
-              <caret line="7" column="37" selection-start-line="6" selection-start-column="26" selection-end-line="7" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,6 +152,13 @@
         <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/routes.js" />
         <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/layout.html" />
         <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasks.module.js" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/app.module.js" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/core.module.js" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/main.js" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/bootstrap.js" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/config.js" />
+        <option value="$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasksService.js" />
       </list>
     </option>
   </component>
@@ -121,7 +168,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1816" />
+    <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -396,28 +443,35 @@
       <option name="number" value="Default" />
       <updated>1417277206032</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding mixed change set">
+      <created>1419624210950</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1419624210950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1816" height="1096" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.49957228" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32349843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936775" sideWeight="0.49957228" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936775" sideWeight="0.5004277" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21206994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="1359" y="241" width="397" height="496" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20535226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="1359" y="241" width="397" height="496" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3242148" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -707,17 +761,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="777">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Home/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+        <state vertical-scroll-proportion="0.030601094" vertical-offset="0" max-vertical-offset="915">
           <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
@@ -725,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Content/Site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="4410">
+        <state vertical-scroll-proportion="0.18625277" vertical-offset="1764" max-vertical-offset="5880">
           <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding />
         </state>
@@ -733,24 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1372">
+        <state vertical-scroll-proportion="0.52771616" vertical-offset="0" max-vertical-offset="1372">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/task-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08108108" vertical-offset="199" max-vertical-offset="1064">
-          <caret line="7" column="37" selection-start-line="6" selection-start-column="26" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/home/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -765,8 +795,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state vertical-scroll-proportion="0.28701594" vertical-offset="0" max-vertical-offset="878">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/home/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21420765" vertical-offset="0" max-vertical-offset="915">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasks.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/task-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08108108" vertical-offset="199" max-vertical-offset="1064">
+          <caret line="7" column="37" selection-start-line="6" selection-start-column="26" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="1036">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/core/core.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WillowKatieMartin.LightingTasks.Web/app/tasks/tasksService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.091803275" vertical-offset="0" max-vertical-offset="915">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>

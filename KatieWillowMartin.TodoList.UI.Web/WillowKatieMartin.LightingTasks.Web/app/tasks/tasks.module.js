@@ -1,7 +1,8 @@
 ﻿define(
     'app.tasks',
     [
-        'angular'
+        'angular',
+        'ngResource'
     ]
     ,
     function (angular) {

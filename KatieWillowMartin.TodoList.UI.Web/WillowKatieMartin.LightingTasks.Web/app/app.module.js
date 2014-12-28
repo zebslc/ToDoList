@@ -2,6 +2,7 @@
     [
         'angular',
         'uiRouter',
+        'ngResource',
         './core/core.module',
         './tasks/tasks.module',
         './core/register',

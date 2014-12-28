@@ -2,6 +2,7 @@
     [
         'require',
         'angular',
+        'ngResource',
         'app'
     ],
     function (require, angular) {
