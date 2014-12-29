@@ -10,7 +10,7 @@
             function ($resource) {
                 this.tasks= function(){
                     var tasksData=$resource("api/tasks/");
-                    return tasksData.get();
+                    return tasksData;
                 }();
             }
         );

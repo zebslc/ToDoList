@@ -11,7 +11,7 @@
 
         function tasks($scope, tasksService) {
 
-            $scope.tasks = tasksService.tasks;
+            $scope.tasks = tasksService.tasks.query();
 
             function resetTaskInput() {
                 $scope.name="";
