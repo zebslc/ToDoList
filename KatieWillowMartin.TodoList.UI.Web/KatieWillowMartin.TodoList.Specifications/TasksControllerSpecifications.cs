@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Hosting;
@@ -74,8 +75,13 @@ namespace KatieWillowMartin.TodoList.Specifications
             public void Do_return_a_task_with_name()
             {
                 // Arrange 
-                var tasks = new List<CustomTask> { new CustomTask(), new CustomTask(), new CustomTask() };
-                var expectedContent = JsonConvert.SerializeObject(tasks);
+                const string taskName = "test Task";
+                var customTask = new CustomTask()
+                {
+                    Name=taskName
+                };
+                var tasks = new List<CustomTask> { new CustomTask(), customTask, new CustomTask() };
+                
 
                 var repository = Substitute.For<ITasksRepository>();
                 repository.Get().Returns(tasks);
@@ -87,7 +93,7 @@ namespace KatieWillowMartin.TodoList.Specifications
                 resultTask.Wait();
 
                 // Verify
-                resultTask.Result.Should().Be(expectedContent);
+                resultTask.Result.Should().Contain(taskName);
             }
 
             private TasksController BuildController(ITasksRepository repository)
