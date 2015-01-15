@@ -95,7 +95,16 @@ namespace KatieWillowMartin.TodoList.Specifications
         [TestFixture]
         public class PostSpecification : TasksControllerSpecifications
         {
-            
+            [Test]
+            public void Do_make_a_call_to_repository()
+            {
+                //Arrange 
+
+                //Act 
+
+                //Verify
+            }
+
         }
         private TasksController BuildController(ITasksRepository repository)
             {
