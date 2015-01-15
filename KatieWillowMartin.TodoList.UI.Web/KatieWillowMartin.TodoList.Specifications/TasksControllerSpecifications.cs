@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -13,21 +13,17 @@ using WillowKatieMartin.LightingTasks.Web.Models;
 
 namespace KatieWillowMartin.TodoList.Specifications
 {
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
 
-
-    [TestFixture]
     public class TasksControllerSpecifications
     {
-
-        public class GetSpecfications
+        [TestFixture]
+        public class GetSpecifications:TasksControllerSpecifications
         {
             [Test]
             public void Do_make_call_to_repository()
             {
                 // Arrange 
-                var repository=Substitute.For<ITasksRepository>();
+                var repository = Substitute.For<ITasksRepository>();
                 var controller = BuildController(repository);
 
                 // Act 
@@ -43,8 +39,8 @@ namespace KatieWillowMartin.TodoList.Specifications
                 var repository = Substitute.For<ITasksRepository>();
                 var controller = BuildController(repository);
                 // Act
-               var result=controller.Get();
-               result.EnsureSuccessStatusCode();
+                var result = controller.Get();
+                result.EnsureSuccessStatusCode();
 
                 // Verify
                 result.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -62,8 +58,8 @@ namespace KatieWillowMartin.TodoList.Specifications
                 repository.Get().Returns(tasks);
 
                 // Act
-                var controller=this.BuildController(repository);
-                var responseMessage=controller.Get();
+                var controller = this.BuildController(repository);
+                var responseMessage = controller.Get();
                 var resultTask = responseMessage.Content.ReadAsStringAsync();
                 resultTask.Wait();
 
@@ -78,10 +74,10 @@ namespace KatieWillowMartin.TodoList.Specifications
                 const string taskName = "test Task";
                 var customTask = new CustomTask()
                 {
-                    Name=taskName
+                    Name = taskName
                 };
                 var tasks = new List<CustomTask> { new CustomTask(), customTask, new CustomTask() };
-                
+
 
                 var repository = Substitute.For<ITasksRepository>();
                 repository.Get().Returns(tasks);
@@ -95,8 +91,13 @@ namespace KatieWillowMartin.TodoList.Specifications
                 // Verify
                 resultTask.Result.Should().Contain(taskName);
             }
-
-            private TasksController BuildController(ITasksRepository repository)
+        }
+        [TestFixture]
+        public class PostSpecification : TasksControllerSpecifications
+        {
+            
+        }
+        private TasksController BuildController(ITasksRepository repository)
             {
                 var config = new HttpConfiguration();
                 var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost/api/CustomTask");
@@ -109,4 +110,3 @@ namespace KatieWillowMartin.TodoList.Specifications
             }
         }
     }
-}
