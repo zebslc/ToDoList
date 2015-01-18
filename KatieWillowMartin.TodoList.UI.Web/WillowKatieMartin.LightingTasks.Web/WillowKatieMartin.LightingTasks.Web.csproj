@@ -180,9 +180,7 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\CustomTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ITasksRepository.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1015,6 +1013,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -1022,6 +1021,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WillowMartin.TodoList.Data.Repositories\WillowMartin.TodoList.Data.Repositories.csproj">
+      <Project>{D7EF1BCA-7851-46CB-8CCA-E04220D4467D}</Project>
+      <Name>WillowMartin.TodoList.Data.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WillowMartin.TodoList.Domain\WillowMartin.TodoList.Domain.csproj">
+      <Project>{C94CCF5D-5342-4B83-B731-AB8359C6A0A4}</Project>
+      <Name>WillowMartin.TodoList.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

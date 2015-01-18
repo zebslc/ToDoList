@@ -1,4 +1,4 @@
-namespace WillowKatieMartin.LightingTasks.Web.Models
+namespace WillowMartin.TodoList.Domain
 {
     public class CustomTask
     {
